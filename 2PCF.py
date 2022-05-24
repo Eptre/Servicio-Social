@@ -55,11 +55,11 @@ class HistogramasEstimadores:
         
     def Histogramas_Estimadores(distancias,distancias_rand,distancias_cat_rand):
         #Histogramas
-        #intervalos = [0,5,10,...,144] y color de barras
+        #intervalos = [0,5,10,...,139] y color de barras
         intervalos = []
         color_barras = "#F2AB6D"
         
-        for i in range(0,145,5):
+        for i in range(0,140,5):
             intervalos.append(i)
             
         #Impresion histograma dd(r)
