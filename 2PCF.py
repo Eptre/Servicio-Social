@@ -92,7 +92,7 @@ class HistogramasEstimadores:
         ###################****************#############################
         pares_dd = []
         pares_dd = hp[0]
-        plt.title("PARES DATA DD")
+        plt.title("PARES DATA dd")
         plt.xlabel("Distancia")
         plt.ylabel("Frecuencia")
         plt.plot(pares_dd,'black')
@@ -100,7 +100,7 @@ class HistogramasEstimadores:
         
         pares_dr = []
         pares_dr = hp_dr[0]
-        plt.title("PARES DATA_RANDOM DR")
+        plt.title("PARES DATA_RANDOM dr")
         plt.xlabel("Distancia")
         plt.ylabel("Frecuencia")
         plt.plot(pares_dr,'black')
@@ -108,7 +108,7 @@ class HistogramasEstimadores:
         
         pares_rr = []
         pares_rr = hp_rr[0]
-        plt.title("PARES RANDOM RR")
+        plt.title("PARES RANDOM rr")
         plt.xlabel("Distancia")
         plt.ylabel("Frecuencia")
         plt.plot(pares_rr,'black')
